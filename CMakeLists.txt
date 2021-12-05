@@ -38,3 +38,13 @@ project(03_2_B)
 set(CMAKE_CXX_STANDARD 14)
 configure_file(03_2_B/input.txt input.txt COPYONLY)
 add_executable(03_2_B 03_2_B/main.cpp)
+
+project(04_1)
+set(CMAKE_CXX_STANDARD 14)
+configure_file(04_1/input.txt input.txt COPYONLY)
+add_executable(04_1 04_1/main.cpp)
+
+project(04_2)
+set(CMAKE_CXX_STANDARD 14)
+configure_file(04_2/input.txt input.txt COPYONLY)
+add_executable(04_2 04_2/main.cpp)
