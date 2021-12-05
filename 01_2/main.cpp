@@ -5,7 +5,7 @@ int min(int a, int b) { return a < b ? a : b ; }
 int max(int a, int b) { return a > b ? a : b ; }
 
 int main() {
-    std::ifstream data("input.txt");
+    std::ifstream data("input_01_2.txt");
     if (!data.is_open()) return -1;
 
     int n, prevN = -1, newN, count = 0;

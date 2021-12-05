@@ -10,7 +10,7 @@ struct BoardSlot {
 };
 
 int main() {
-    std::ifstream data("input.txt");
+    std::ifstream data("input_04_1.txt");
     if (!data.is_open()) return -1;
 
     std::string input;

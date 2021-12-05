@@ -2,7 +2,7 @@
 #include <fstream>
 
 int main() {
-    std::ifstream data("input.txt");
+    std::ifstream data("input_03_1.txt");
     if (!data.is_open()) return -1;
 
     int count[12] {0,0,0,0,0,0,0,0,0,0,0,0};

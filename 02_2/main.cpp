@@ -2,7 +2,7 @@
 #include <fstream>
 
 int main() {
-    std::ifstream data("input.txt");
+    std::ifstream data("input_02_2.txt");
     if (!data.is_open()) return -1;
 
     std::string cmd;

@@ -2,7 +2,7 @@
 #include <fstream>
 
 int main() {
-    std::ifstream data("input.txt");
+    std::ifstream data("input_01_1.txt");
     if (!data.is_open()) return -1;
 
     int prevN, newN, count = 0;

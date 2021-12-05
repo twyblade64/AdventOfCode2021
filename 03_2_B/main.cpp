@@ -3,7 +3,7 @@
 #include <cstring>
 
 int main() {
-    std::ifstream data("input.txt");
+    std::ifstream data("input_03_2.txt");
     if (!data.is_open()) return -1;
 
     int count[0xFFFFu];
