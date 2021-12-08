@@ -74,8 +74,22 @@ set(CMAKE_CXX_STANDARD 14)
 configure_file(07_1/input_07_1.txt input_07_1.txt COPYONLY)
 add_executable(07_1 07_1/main.cpp)
 
-
 project(07_2)
 set(CMAKE_CXX_STANDARD 14)
 configure_file(07_2/input_07_2.txt input_07_2.txt COPYONLY)
 add_executable(07_2 07_2/main.cpp)
+
+project(08_1)
+set(CMAKE_CXX_STANDARD 14)
+configure_file(08_1/input_08_1.txt input_08_1.txt COPYONLY)
+add_executable(08_1 08_1/main.cpp)
+
+project(08_2)
+set(CMAKE_CXX_STANDARD 14)
+configure_file(08_2/input_08_2.txt input_08_2.txt COPYONLY)
+add_executable(08_2 08_2/main.cpp)
+
+project(08_2_B)
+set(CMAKE_CXX_STANDARD 14)
+configure_file(08_2_B/input_08_2_B.txt input_08_2_B.txt COPYONLY)
+add_executable(08_2_B 08_2_B/main.cpp)
