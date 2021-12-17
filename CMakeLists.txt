@@ -168,3 +168,7 @@ project(16_2)
 set(CMAKE_CXX_STANDARD 14)
 configure_file(16_2/input_16_2.txt input_16_2.txt COPYONLY)
 add_executable(16_2 16_2/main.cpp)
+
+project(17_2)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(17_2 17_2/main.cpp)
