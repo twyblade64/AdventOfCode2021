@@ -158,3 +158,13 @@ project(15_2)
 set(CMAKE_CXX_STANDARD 14)
 configure_file(15_2/input_15_2.txt input_15_2.txt COPYONLY)
 add_executable(15_2 15_2/main.cpp)
+
+project(16_1)
+set(CMAKE_CXX_STANDARD 14)
+configure_file(16_1/input_16_1.txt input_16_1.txt COPYONLY)
+add_executable(16_1 16_1/main.cpp)
+
+project(16_2)
+set(CMAKE_CXX_STANDARD 14)
+configure_file(16_2/input_16_2.txt input_16_2.txt COPYONLY)
+add_executable(16_2 16_2/main.cpp)
