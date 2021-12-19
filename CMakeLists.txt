@@ -172,3 +172,14 @@ add_executable(16_2 16_2/main.cpp)
 project(17_2)
 set(CMAKE_CXX_STANDARD 14)
 add_executable(17_2 17_2/main.cpp)
+
+project(18_1)
+set(CMAKE_CXX_STANDARD 14)
+configure_file(18_1/input_18_1.txt input_18_1.txt COPYONLY)
+add_executable(18_1 18_1/main.cpp)
+
+
+project(18_2)
+set(CMAKE_CXX_STANDARD 14)
+configure_file(18_2/input_18_2.txt input_18_2.txt COPYONLY)
+add_executable(18_2 18_2/main.cpp)
