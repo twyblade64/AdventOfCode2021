@@ -178,8 +178,17 @@ set(CMAKE_CXX_STANDARD 14)
 configure_file(18_1/input_18_1.txt input_18_1.txt COPYONLY)
 add_executable(18_1 18_1/main.cpp)
 
-
 project(18_2)
 set(CMAKE_CXX_STANDARD 14)
 configure_file(18_2/input_18_2.txt input_18_2.txt COPYONLY)
 add_executable(18_2 18_2/main.cpp)
+
+project(19_1)
+set(CMAKE_CXX_STANDARD 14)
+configure_file(19_1/input_19_1.txt input_19_1.txt COPYONLY)
+add_executable(19_1 19_1/main.cpp)
+
+project(19_2)
+set(CMAKE_CXX_STANDARD 14)
+configure_file(19_2/input_19_2.txt input_19_2.txt COPYONLY)
+add_executable(19_2 19_2/main.cpp)
