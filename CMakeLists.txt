@@ -210,3 +210,13 @@ add_executable(21_1 21_1/main.cpp)
 project(21_2)
 set(CMAKE_CXX_STANDARD 14)
 add_executable(21_2 21_2/main.cpp)
+
+project(22_1)
+set(CMAKE_CXX_STANDARD 14)
+configure_file(22_1/input_22_1.txt input_22_1.txt COPYONLY)
+add_executable(22_1 22_1/main.cpp)
+
+project(22_2)
+set(CMAKE_CXX_STANDARD 14)
+configure_file(22_2/input_22_2.txt input_22_2.txt COPYONLY)
+add_executable(22_2 22_2/main.cpp)
