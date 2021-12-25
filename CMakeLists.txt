@@ -230,3 +230,8 @@ project(24_1)
 set(CMAKE_CXX_STANDARD 14)
 configure_file(24_1/input_24_1.txt input_24_1.txt COPYONLY)
 add_executable(24_1 24_1/main.cpp)
+
+project(25_1)
+set(CMAKE_CXX_STANDARD 14)
+configure_file(25_1/input_25_1.txt input_25_1.txt COPYONLY)
+add_executable(25_1 25_1/main.cpp)
